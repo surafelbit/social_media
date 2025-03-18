@@ -1,0 +1,115 @@
+.rightbar {
+  flex: 3.5;
+  height: calc(100vh - 50px);
+  /* overflow-y: scroll; */
+  /* position: sticky;
+    top: 60px; */
+}
+.birthdayImage {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+.birthdayText {
+  font-size: 14px;
+  font-weight: 300;
+}
+/* .birthdayContainer {
+  display: flex;
+  align-items: center;
+} */
+.advert {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.rightbar {
+  padding: 20px;
+}
+.friendListImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.friendListContainer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.friendList {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.imageContainer {
+  margin-right: 15px;
+  position: relative;
+}
+.greenOnlineIndicator {
+  width: 12px;
+  height: 12px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border: solid 2px white;
+}
+.friendListName {
+  font-weight: 500;
+}
+.personalInfo {
+  display: flex;
+}
+.listImages {
+  height: 40px;
+  width: 40px;
+}
+.friendLists {
+  list-style: none;
+  display: flex;
+  display: flex; /* Use flexbox for horizontal alignment */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Prevent vertical scrolling */
+  white-space: nowrap; /* Ensure items don't wrap */
+  scroll-behavior: smooth; /* Optional: smooth scrolling */
+  width: 300px; /* Set a width for the container */
+  padding: 10px; /* Optional: add some padding */
+}
+.lists {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  flex: 0 0 auto; /* Ensure items stay inline and don't shrink */
+  width: 200px; /* Set item width */
+  margin-right: 0px; /* Add spacing between items */
+  /* margin-left: auto;
+  margin-right: auto; */
+  background-color: #3498db; /* Optional: background color */
+  color: white; /* Optional: text color */
+  text-align: center; /* Center text */
+  line-height: 150px; /* Center text vertically */
+  /* border-radius: 10px; */
+}
+.listImages {
+  border-radius: 50%;
+  margin-left: 0;
+  margin-right: 20px;
+  border: 3px solid limegreen;
+  cursor: pointer;
+}
+.userFriends {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.personalInfoKey {
+  margin-right: 15px;
+  font-weight: 600;
+}
+
+.personalInfoValue {
+  font-weight: 50;
+}

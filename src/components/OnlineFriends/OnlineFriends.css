@@ -1,0 +1,59 @@
+/* .rightbar {
+  flex: 3.5;
+}
+.birthdayImage {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+.birthdayText {
+  font-size: 14px;
+  font-weight: 300;
+}
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+.advert {
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.rightbar {
+  padding: 20px;
+}
+.friendListImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.friendListContainer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.friendList {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.imageContainer {
+  margin-right: 15px;
+  position: relative;
+}
+.greenOnlineIndicator {
+  width: 12px;
+  height: 12px;
+  background-color: limegreen;
+  border-radius: 50%;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border: solid 2px white;
+}
+.friendListName {
+  font-weight: 500;
+} */
